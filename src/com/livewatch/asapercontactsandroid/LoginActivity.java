@@ -32,10 +32,10 @@ public class LoginActivity extends Activity {
 	    startActivity(intent);
 	}
 	
-	/*public void sendSignupActivity(View view) {
+	public void sendSignupActivity(View view) {
 	    Intent intent = new Intent(this, HomeActivity.class);
 	    startActivity(intent);
-	}*/
+	}
 
 
 }

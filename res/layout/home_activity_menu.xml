@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <!-- <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/back_blue_arrow2x"
+        android:onClick="clickButtonHome" />
+
+     Centered text -->
+    <TextView
+        android:id="@+id/add_actionbar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Activity"
+        android:textSize="20dp"
+        android:textColor="@color/light_gray"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingRight="20dp" />
+
+    <!-- Cancel button -->
+    <Button
+        android:id="@+id/buttonDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/navegation_highlighted"
+        android:textColor="#fff"
+        android:onClick="clickButtonSendFeedback" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="horizontal"
+    android:layout_marginBottom="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="40dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:background="#e1e1e1" >    
+    
+         <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:weightSum="1.0"
+android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:layout_marginBottom="4dp" >
+    
+    
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:padding="15dp"
+    android:textColor="#808080"
+    android:textSize="22sp"
+    android:text="Send an ASAP message" />
+
+ <ImageView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/slate_arrow2x"
+        android:layout_alignParentRight="true" />
+   
+
+    </RelativeLayout>
+
+
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4sp"
+        android:layout_marginBottom="4sp"/>
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:padding="15dp"
+    android:textColor="#ff5500"
+    android:textSize="22sp"
+    android:text="Make ASAPer better" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15sp"
+            android:paddingLeft="34sp"
+            android:paddingRight="34sp"
+            android:paddingTop="15sp"
+            android:textColor="#808080"
+        android:textSize="22sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+       
+  android:drawableLeft="@drawable/import_activity_icon"
+  android:gravity="left|center_vertical"
+  android:text="import contacts"
+  android:background="@drawable/white_button_home_activity"
+          android:onClick="onClickSelectContacts" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15sp"
+            android:paddingLeft="25sp"
+            android:paddingRight="25sp"
+            android:paddingTop="15sp"
+            android:textColor="#808080"
+        android:textSize="22sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+       
+  android:drawableLeft="@drawable/profile_icon"
+  android:gravity="left|center_vertical"
+  android:text="Build your profile"
+  android:background="@drawable/white_button_home_activity" />
+
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15sp"
+            android:paddingLeft="39sp"
+            android:paddingRight="39sp"
+            android:paddingTop="15sp"
+            android:textColor="#808080"
+        android:textSize="22sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+       
+  android:drawableLeft="@drawable/group_icon"
+  android:gravity="left|center_vertical"
+  android:text="Create a group"
+  android:background="@drawable/white_button_home_activity"
+  android:layout_marginBottom="100sp"
+  android:onClick="onClickCreateGroup" />
+
+
+
+        </LinearLayout>
+
+</ScrollView>
+

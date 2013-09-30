@@ -26,6 +26,10 @@
             android:name=".MessageASAPerActivity"
             android:theme="@style/Theme.Sherlock.Light" >
         </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
     </application>
 
 </manifest>
