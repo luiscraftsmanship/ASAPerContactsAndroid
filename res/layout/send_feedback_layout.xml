@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#38393B"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" >
+        
+        <Button
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8sp"
+            android:paddingLeft="16sp"
+            android:paddingRight="16sp"
+            android:paddingTop="8sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+             android:textColor="@color/light_gray"
+            android:text="Get Help"
+            android:onClick="onClickGetHelp"
+            android:background="@drawable/dark_gray_send_feedback" />
+        
+        <Button
+            android:id="@+id/imageButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8sp"
+            android:paddingLeft="16sp"
+            android:paddingRight="16sp"
+            android:paddingTop="8sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+             android:textColor="@color/light_gray"
+            android:text="Share Idea"
+            android:onClick="onClickShareIdea"
+            android:background="@drawable/dark_gray_send_feedback" />
+        
+        <Button
+            android:id="@+id/imageButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8sp"
+            android:paddingLeft="16sp"
+            android:paddingRight="16sp"
+            android:paddingTop="8sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+             android:textColor="@color/light_gray"
+            android:text="Report Bug"
+            android:onClick="onClickReportBug"
+            android:background="@drawable/dark_gray_send_feedback"
+             />
+        
+    </LinearLayout>
+    
+        <EditText 
+            android:id="@+id/emailLogin"
+            android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="top|left"
+        	android:singleLine="false"
+        	android:lines="7"
+        	android:inputType="textMultiLine"
+    		android:hint="Enter your bug report or feedback here" />
+    
+
+</LinearLayout>

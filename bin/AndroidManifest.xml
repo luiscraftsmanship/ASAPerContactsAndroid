@@ -30,6 +30,10 @@
             android:name=".HomeActivity"
             android:theme="@style/Theme.Sherlock.Light" >
         </activity>
+        <activity
+            android:name=".SendFeedbackActivity"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
     </application>
 
 </manifest>

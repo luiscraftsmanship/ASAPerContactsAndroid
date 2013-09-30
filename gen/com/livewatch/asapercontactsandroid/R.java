@@ -1024,7 +1024,7 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040013;
         public static final int abs__title=0x7f04001b;
         public static final int abs__up=0x7f04000b;
-        public static final int action_settings=0x7f040044;
+        public static final int action_settings=0x7f040047;
         public static final int add_actionbar_text=0x7f04003f;
         public static final int button=0x7f040039;
         public static final int buttonDone=0x7f040040;
@@ -1033,6 +1033,9 @@ containing a value of this type.
         public static final int edit_query=0x7f040026;
         public static final int emailLogin=0x7f040042;
         public static final int homeAsUp=0x7f040006;
+        public static final int imageButton10=0x7f040044;
+        public static final int imageButton11=0x7f040045;
+        public static final int imageButton12=0x7f040046;
         public static final int imageView1=0x7f040036;
         public static final int imageView2=0x7f040041;
         public static final int listMode=0x7f040002;
@@ -1085,8 +1088,10 @@ containing a value of this type.
         public static final int home_activity_layout=0x7f030017;
         public static final int home_activity_menu=0x7f030018;
         public static final int login_layout=0x7f030019;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
-        public static final int sherlock_spinner_item=0x7f03001b;
+        public static final int send_feedback_layout=0x7f03001a;
+        public static final int send_feedback_menu=0x7f03001b;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001c;
+        public static final int sherlock_spinner_item=0x7f03001d;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;
