@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="horizontal"
+    android:layout_marginBottom="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:background="#e1e1e1" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup_logo"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+    android:paddingBottom="20dp" />
+
+    
+    <EditText android:id="@+id/emailLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/email_icon"
+    android:hint="Email"
+    android:inputType="textVisiblePassword"/>
+    
+    <EditText android:id="@+id/passwordLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/password_icon"
+    android:hint="Password"
+    android:inputType="textVisiblePassword"/>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8sp"
+            android:paddingLeft="128sp"
+            android:paddingRight="128sp"
+            android:paddingTop="8sp"
+        android:text="Login"
+        android:background="@drawable/blue_button"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+     android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+    android:onClick="sendLoginActivity" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8sp"
+            android:paddingLeft="64sp"
+            android:paddingRight="64sp"
+            android:paddingTop="8sp"
+        android:text="Sign up for ASAPer"
+        android:background="@drawable/white_button"
+        android:textColor="#808080"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:onClick="sendSignupActivity" />
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:padding="10dp"
+    android:layout_gravity="bottom" 
+    android:layout_alignParentBottom="true"
+    android:textColor="#ff5500"
+    android:text="Forgot your password?"
+    android:layout_marginBottom="100sp" />
+    
+
+    </LinearLayout>
+    
+</ScrollView>
+
