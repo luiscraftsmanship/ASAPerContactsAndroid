@@ -1,0 +1,338 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="horizontal"
+    android:layout_marginBottom="20dp"
+    android:paddingBottom="20dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true" >
+    
+     <View android:id="@+id/divider"
+    android:background="@drawable/black_white_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="16dp" />
+     
+     <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:weightSum="1.0"
+android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:layout_marginBottom="4dp" >
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textSize="18sp"
+        android:textColor="#ff5500"
+        android:text="Needs Your #Answer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:textColor="#A1A1A1"
+        android:textSize="16sp"
+        android:text="5 min ago" />
+    
+    </RelativeLayout>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4sp"
+        android:layout_marginBottom="4sp"/>
+    
+    <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:weightSum="1.0"
+android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:layout_marginBottom="4dp" >
+    
+     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Bill Murray" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@+id/textView6"
+         android:src="@drawable/answer_bar_arrow_icon" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="8dp"
+         android:layout_toRightOf="@+id/imageView1"
+         android:text="Chicago Bears Fan Club"
+         android:textStyle="bold"
+        android:textSize="14sp" />
+     
+     </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="18sp"
+        android:text="Got 2 tix for the bears game on Sat. $90 With VIP parking. You in?" />
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"/>
+
+    <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:weightSum="1.0"
+android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginBottom="8dp" >
+
+<Button android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8sp"
+            android:paddingLeft="22sp"
+            android:paddingRight="22sp"
+            android:paddingTop="8sp"
+        android:text="#YES"
+        android:background="@drawable/green_button"
+        android:layout_weight=".2"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true" />
+
+<Button android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8sp"
+            android:paddingLeft="18sp"
+            android:paddingRight="18sp"
+            android:paddingTop="8sp"
+        android:text="#Maybe"
+        android:background="@drawable/orange_button"
+        android:layout_weight=".2"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/red_button"
+    android:layout_weight=".2"
+    android:textColor="#ffffff"
+    android:paddingBottom="8sp"
+            android:paddingLeft="22sp"
+            android:paddingRight="22sp"
+            android:paddingTop="8sp"
+    android:text="#NO"
+   android:layout_alignParentRight="true" />
+
+</RelativeLayout>
+    
+     <View android:id="@+id/divider"
+    android:background="@drawable/black_white_gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="16dp" />
+     
+     <RelativeLayout 
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:weightSum="1.0"
+android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginBottom="4dp" >
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textSize="18sp"
+        android:textColor="#61CB2F"
+        android:text="Active" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="#FF0000"
+        android:text="2 new messages" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:textColor="#A1A1A1"
+        android:textSize="16sp"
+        android:text="2:30pm" />
+    
+    </RelativeLayout>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4sp"
+        android:layout_marginBottom="4sp"/>
+    
+     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="4dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="You Nannies" />
+     
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="18sp"
+        android:text="We Need the kids watched most of the weekend. Which times are you available?" />
+     
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"
+    android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="8sp"/>
+    
+     <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="87dp"
+         android:layout_marginBottom="4dp"
+         android:paddingLeft="8dp"
+         android:paddingRight="8dp"
+         android:weightSum="1.0" >
+
+<Button android:id="@+id/button"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text="3"
+        android:background="@drawable/round_button"
+        android:layout_weight=".2"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true" />
+
+<Button android:id="@+id/button"
+        android:layout_width="50sp"
+        android:layout_height="50sp"    
+        android:text="1"
+        android:background="@drawable/round_button"
+        android:layout_weight=".2"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true" />
+
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="50sp"
+    android:layout_height="50sp"
+    android:background="@drawable/round_button"
+    android:layout_weight=".2"
+    android:textColor="#ffffff"
+    android:text="2"
+   android:layout_alignParentRight="true" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/button"
+    android:textColor="#A1A1A1"
+    android:textSize="14sp"
+    android:text="#SatDaytime" />
+
+<TextView
+    android:id="@+id/textView9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView8"
+    android:layout_alignBottom="@+id/textView8"
+    android:layout_centerHorizontal="true"
+    android:textColor="#A1A1A1"
+    android:textSize="14sp"
+    android:text="#SatNight" />
+
+<TextView
+    android:id="@+id/textView10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/textView9"
+    android:layout_alignBottom="@+id/textView9"
+    android:layout_alignRight="@+id/button"
+    android:textColor="#A1A1A1"
+    android:textSize="14sp"
+    android:text="SunDaytime" />
+
+</RelativeLayout>
+     
+</LinearLayout>
+
+</ScrollView>
