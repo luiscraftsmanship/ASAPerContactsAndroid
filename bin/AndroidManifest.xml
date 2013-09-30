@@ -38,6 +38,10 @@
             android:name=".SelectContactsActivity"
             android:theme="@style/Theme.Sherlock.Light" >
         </activity>
+        <activity
+            android:name=".GroupsActivity"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
     </application>
 
 </manifest>

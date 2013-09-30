@@ -11,17 +11,19 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 
-public class HomeActivity extends SherlockActivity {
+public class GroupsActivity extends SherlockActivity {
 
+	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	
     	 
+  //  	setTheme(THEME);
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_activity_layout);
+        setContentView(R.layout.groups_layout);
         
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM); 
-		getSupportActionBar().setCustomView(R.layout.home_activity_menu);
+		getSupportActionBar().setCustomView(R.layout.groups_menu);
 		
 		getSupportActionBar().setIcon(R.drawable.menu_highlighted );
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -39,20 +41,20 @@ public class HomeActivity extends SherlockActivity {
     }
     
     
-    public void clickButtonSendFeedback(View view) {
+/*    public void clickButtonSendFeedback(View view) {
 	    Intent intent = new Intent(this, SendFeedbackActivity.class);
 	    startActivity(intent);
 	}
     
     public void onClickImportContacts(View view) {
-	    Intent intent = new Intent(this, SelectContactsActivity.class);
+	    Intent intent = new Intent(this, ImportContactsActivity.class);
 	    startActivity(intent);
 	}
 	
 	public void onClickCreateGroup(View view) {
 	    Intent intent = new Intent(this, GroupsActivity.class);
 	    startActivity(intent);
-	}
+	}*/
 
  
 }
