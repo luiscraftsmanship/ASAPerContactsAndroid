@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="horizontal"
+    android:layout_marginBottom="20dp"
+    android:paddingTop="100dp"
+    android:paddingBottom="100dp"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:background="#e1e1e1" >
+    
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:padding="10dp"
+    android:layout_gravity="bottom" 
+    android:layout_alignParentBottom="true"
+    android:textColor="#808080"
+    android:text="Your contact list is empty"
+    android:layout_marginBottom="100sp" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8sp"
+            android:paddingLeft="35sp"
+            android:paddingRight="35sp"
+            android:paddingTop="8sp"
+            android:textColor="#ff5500"
+        android:textSize="22sp"
+  android:drawableLeft="@drawable/import_icon_orange"
+  android:text="Import contacts"
+  android:background="@drawable/white_button"
+          android:onClick="onClickSelectContacts"
+          android:layout_marginBottom="100sp"
+          android:gravity="left|center_vertical"
+ android:layout_gravity="center_vertical|center_horizontal" />
+    
+    </LinearLayout>
+    
+</ScrollView>
+

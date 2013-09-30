@@ -1088,10 +1088,12 @@ containing a value of this type.
         public static final int home_activity_layout=0x7f030017;
         public static final int home_activity_menu=0x7f030018;
         public static final int login_layout=0x7f030019;
-        public static final int send_feedback_layout=0x7f03001a;
-        public static final int send_feedback_menu=0x7f03001b;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001c;
-        public static final int sherlock_spinner_item=0x7f03001d;
+        public static final int select_contacts_layout=0x7f03001a;
+        public static final int select_contacts_menu=0x7f03001b;
+        public static final int send_feedback_layout=0x7f03001c;
+        public static final int send_feedback_menu=0x7f03001d;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001e;
+        public static final int sherlock_spinner_item=0x7f03001f;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;

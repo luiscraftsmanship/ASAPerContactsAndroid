@@ -413,10 +413,12 @@ int layout asaper_message_menu 0x7f030016
 int layout home_activity_layout 0x7f030017
 int layout home_activity_menu 0x7f030018
 int layout login_layout 0x7f030019
-int layout send_feedback_layout 0x7f03001a
-int layout send_feedback_menu 0x7f03001b
-int layout sherlock_spinner_dropdown_item 0x7f03001c
-int layout sherlock_spinner_item 0x7f03001d
+int layout select_contacts_layout 0x7f03001a
+int layout select_contacts_menu 0x7f03001b
+int layout send_feedback_layout 0x7f03001c
+int layout send_feedback_menu 0x7f03001d
+int layout sherlock_spinner_dropdown_item 0x7f03001e
+int layout sherlock_spinner_item 0x7f03001f
 int menu main 0x7f0b0000
 int string abs__action_bar_home_description 0x7f090000
 int string abs__action_bar_up_description 0x7f090001

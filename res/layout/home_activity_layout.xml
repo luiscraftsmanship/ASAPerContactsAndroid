@@ -80,7 +80,7 @@ android:paddingLeft="8dp"
   android:gravity="left|center_vertical"
   android:text="import contacts"
   android:background="@drawable/white_button_home_activity"
-          android:onClick="onClickSelectContacts" />
+          android:onClick="onClickImportContacts" />
 
 <Button
         android:layout_width="wrap_content"
