@@ -38,7 +38,7 @@
   android:drawableLeft="@drawable/import_icon_orange"
   android:text="Import contacts"
   android:background="@drawable/white_button"
-          android:onClick="onClickSelectContacts"
+          android:onClick="onClickImportContacts"
           android:layout_marginBottom="100sp"
           android:gravity="left|center_vertical"
  android:layout_gravity="center_vertical|center_horizontal" />

@@ -39,13 +39,13 @@ public class SelectContactsActivity extends SherlockActivity {
     }
     
     
-    public void clickButtonSendFeedback(View view) {
+    /*public void clickButtonSendFeedback(View view) {
 	    Intent intent = new Intent(this, SendFeedbackActivity.class);
 	    startActivity(intent);
-	}
+	}*/
     
-    public void onClickSelectContacts(View view) {
-	    Intent intent = new Intent(this, SelectContactsActivity.class);
+    public void onClickImportContacts(View view) {
+	    Intent intent = new Intent(this, ContactListActivity.class);
 	    startActivity(intent);
 	}
 	
